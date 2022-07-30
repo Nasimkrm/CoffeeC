@@ -1,0 +1,426 @@
+body {
+    margin: 0;
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    
+    text-decoration: none;
+    color: #F7F7F7;
+}
+.rectangle-1 {
+    /* background-color: #393E46; */
+    background-color: #393e46;
+background-image: url("https://www.transparenttextures.com/patterns/noisy.png");
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangle-2 {
+    background-color: #5C636E;
+    width: 1450px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.square {
+    background-color: #CDD5E0;
+    
+    width: 401px;
+    height: 496px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-image: linear-gradient(to right,
+    #CDD5E0, #5C636E); 
+    
+    
+}
+
+.container {
+    width: 453px;
+    height: 344px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 350px;
+   
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav img {
+    height: 90px;
+    margin-top: 15px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+nav a {
+    color: #F7F7F7;
+    font-size: 15px;
+    
+}
+
+nav a:after {
+    display: block;
+    content: '';
+    border-bottom: solid 3px #F8B500 ;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+nav a:hover:after {
+    transform: scaleX(1);
+}
+
+nav a:after {
+    transform-origin: 0% 50%;
+}
+
+.rectangle-2-content {
+    display: flex;
+}
+
+.main-title {
+    font-size: 6rem;
+    font-weight: 300;
+    margin: 0;
+    letter-spacing: 1px;
+    font-family: 'Kanit', sans-serif;;
+    
+}
+
+.vertical-line {
+   height: 2px;
+    background-color: #F7F7F7;
+    width: 550px;
+}
+
+.title-cont {
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    color:#F7F7F7 ;
+}
+
+.we-are-open {
+    color: #F7F7F7;
+    font-family:'Great Vibes', cursive;
+    letter-spacing: 2px;
+    font-size: 1.625rem;
+    border: 2px solid #F7F7F7;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.social-links-div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+   
+   
+}
+
+.social-link {
+    width: 27px;
+    margin-left: 10px;
+    
+    
+}
+
+
+
+.about-div {
+    height: 100vh;
+    /* background-color: #F7F7F7; */
+    background-color: #f7f7f7;
+background-image: url("https://www.transparenttextures.com/patterns/noisy.png");
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+   
+}
+
+.image-div {
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.image-div img {
+    width: 364px;
+    height: 468px;
+    margin-left: 20px;
+    
+}
+
+.about-div p {
+    width: 50%;
+    line-height: 1.6;
+    text-align: justify;
+    
+   
+    
+}
+
+.opening-hours-div {
+    height: 100vh;
+    /* background-color: #393E46; */
+    background-color: #393e46;
+    background-image: url("https://www.transparenttextures.com/patterns/noisy.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opening-hours-div img {
+    width: 229px;
+    height: 163px;
+    transform:rotate(320deg);
+}
+
+.opening-hours-box {
+    color: #F7F7F7;
+    border: 2px solid #F7F7F7;
+    width: 25%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    font-size: 1rem;
+    padding: 15px 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.opening-hours-box p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-div {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: #F7F7F7; */
+    background-color: #f7f7f7;
+background-image: url("https://www.transparenttextures.com/patterns/noisy.png");
+}
+
+.contact-div-title {
+    font-size: 1.5rem;
+}
+
+.contact-boxes-div {
+    display: flex;
+   
+}
+
+.contact-box {
+    background-color: #393E46;
+    border-radius: 20px;
+    width: 294px;
+    height: 86px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    align-items: center;
+    color: #F7F7F7;
+    padding: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 0.3s ease-in-out;
+}
+
+.contact-box:hover {
+    opacity: 0.9;
+}
+
+
+.menu-cont {
+    font-size: 0.8rem;
+    padding: 0 50px;
+    /* background-color:#393E46 ; */
+    background-color: #393e46;
+    background-image: url("https://www.transparenttextures.com/patterns/noisy.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F7F7F7;
+    /* width: 100vw; */
+    line-height: 1.6;
+}
+
+.title {
+    font-size: 1.5rem;
+    /* margin-top: 50px; */
+    text-align: center;
+
+
+
+}
+
+.underline {
+    height: 3px;
+    width: 300px;
+    background-color: #F8B500;
+    margin: auto;
+
+}
+
+.subtitle {
+    text-align: center;
+
+
+}
+
+.header-items {
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: solid 2px;
+    border-color: #F8B500;
+}
+
+.menu-sale {
+    display: flex;
+
+
+}
+
+.food-images {
+   
+    width: 200px;
+    right: 100px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.photo {
+    width: 300px;
+    height: 300px;
+    border: solid 2px;
+    border-color: #F8B500;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin: 30px;
+    opacity: 0.9;
+    transition: 0.3s ease-in-out;
+
+}
+
+.photo:hover {
+    opacity: 1;
+}
+
+.bar {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    border: solid 3px;
+    border-color: #F7F7F7;
+    width: 300px;
+    text-align: center;
+    margin: 50px;
+
+}
+
+.menu-item {
+    margin-left: 50px;
+    width: 300px;
+    margin-right: 50px;
+}
+
+
+
+.menu-sucre {
+    display: flex;
+}
+
+
+
+
+.coffee-menu {
+    display: flex;
+    
+}
+
+.menu-section {
+
+    width: 300px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.coffee-type {
+
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.coffee-desc {
+    padding-left: 20px;
+    margin-top: -10px;
+    font-size: 0.8rem;
+}
+
+
+.heading {
+    border-bottom: solid 2px #F3C623;
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 2px #F3C623;
+    margin: 20px;
+    padding: 20px 0 0 0;
+
+}
+
+
+footer  {
+    
+    text-align: center;
+    /* background-color: #f7f7f7;
+background-image: url("https://www.transparenttextures.com/patterns/noisy.png"); */
+}
+
+
+
+
+
