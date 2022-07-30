@@ -4,6 +4,7 @@ const express = require('express')
 const app = express()
 app.use(express.static('public'));
 const port = 3000
+const path = require('path');
 
 app.get('/', (req, res) => {
   res.sendFile("index.html", {root:__dirname})
