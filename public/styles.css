@@ -84,7 +84,7 @@ nav a {
 nav a:after {
     display: block;
     content: '';
-    border-bottom: solid 3px #F8B500 ;
+    border-bottom: solid 3px #E0AF64;
     transform: scaleX(0);
     transition: transform 250ms ease-in-out;
 }
@@ -126,11 +126,12 @@ nav a:after {
 }
 
 .we-are-open {
+    background-color: #E0AF64;
     color: #F7F7F7;
     font-family:'Great Vibes', cursive;
     letter-spacing: 2px;
     font-size: 1.625rem;
-    border: 2px solid #F7F7F7;
+    /* border: 2px solid #F7F7F; */
     border-radius: 10px;
     padding: 15px;
     text-align: center;
@@ -148,9 +149,11 @@ nav a:after {
 .social-link {
     width: 27px;
     margin-left: 10px;
-    
-    
 }
+
+
+
+
 
 
 
@@ -259,10 +262,11 @@ background-image: url("https://www.transparenttextures.com/patterns/noisy.png");
     color: #F7F7F7;
     padding: 15px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in;
 }
 
 .contact-box:hover {
+    transform: scale(1.1);
     opacity: 0.9;
 }
 
@@ -294,7 +298,7 @@ background-image: url("https://www.transparenttextures.com/patterns/noisy.png");
 .underline {
     height: 3px;
     width: 300px;
-    background-color: #F8B500;
+    background-color: #E0AF64;
     margin: auto;
 
 }
@@ -310,7 +314,7 @@ background-image: url("https://www.transparenttextures.com/patterns/noisy.png");
     justify-content: space-between;
 
     border-bottom: solid 2px;
-    border-color: #F8B500;
+    border-color: #E0AF64;
 }
 
 .menu-sale {
@@ -333,19 +337,18 @@ background-image: url("https://www.transparenttextures.com/patterns/noisy.png");
 .photo {
     width: 300px;
     height: 300px;
-    border: solid 2px;
-    border-color: #F8B500;      
-    border-radius: 10px;
+    /* border: solid 2px; */
+    /* border-color: #F8B500;       */
+    /* border-radius: 10px; */
     margin-bottom: 40px;
     margin: 30px;
-    opacity: 0.9;
-    transition: 0.3s ease-in-out;
+    
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
 
-.photo:hover {
-    opacity: 1;
-}
+
 
 .bar {
     /* display: flex;
@@ -403,10 +406,10 @@ background-image: url("https://www.transparenttextures.com/patterns/noisy.png");
 
 
 .heading {
-    border-bottom: solid 2px #F3C623;
+    border-bottom: solid 2px #E0AF64;
     display: flex;
     justify-content: space-between;
-    border-top: solid 2px #F3C623;
+    border-top: solid 2px #E0AF64;
     margin: 20px;
     padding: 20px 0 0 0;
 
