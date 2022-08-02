@@ -65,12 +65,12 @@ nav img {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-nav a {
+.nav-link {
     color: #F7F7F7;
     font-size: 15px;
 }
 
-nav a:after {
+.nav-link:after {
     display: block;
     content: '';
     border-bottom: solid 3px #E0AF64;
@@ -78,11 +78,11 @@ nav a:after {
     transition: transform 250ms ease-in-out;
 }
 
-nav a:hover:after {
+.nav-link:hover:after {
     transform: scaleX(1);
 }
 
-nav a:after {
+.nav-link:after {
     transform-origin: 0% 50%;
 }
 
@@ -95,7 +95,7 @@ nav a:after {
     font-weight: 300;
     margin: 0;
     letter-spacing: 1px;
-    opacity: 0.75;
+    opacity: 0.90;
     font-family: 'Kanit', sans-serif;;
 }
 
@@ -127,8 +127,9 @@ nav a:after {
 
 .social-links-div {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
+    
 }
 
 .social-link {
@@ -226,7 +227,7 @@ background-image: url("https://www.transparenttextures.com/patterns/noisy.png");
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 20px;
+    margin: 30px;
     align-items: center;
     color: #F7F7F7;
     padding: 15px;
@@ -246,7 +247,7 @@ background-image: url("https://www.transparenttextures.com/patterns/noisy.png");
     background-image: url("https://www.transparenttextures.com/patterns/noisy.png");
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
     align-items: center;
     color: #F7F7F7;
     line-height: 1.6;
@@ -277,6 +278,7 @@ background-image: url("https://www.transparenttextures.com/patterns/noisy.png");
 
 .menu-sale {
     display: flex;
+    flex-direction: column;
 }
 
 .food-images {
@@ -295,12 +297,15 @@ background-image: url("https://www.transparenttextures.com/patterns/noisy.png");
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+
+
 .bar {
     border: solid 3px;
     border-color: #F7F7F7;
     width: 300px;
     text-align: center;
     margin: 50px;
+    
 }
 
 .menu-item {
@@ -311,6 +316,7 @@ background-image: url("https://www.transparenttextures.com/patterns/noisy.png");
 
 .menu-sucre {
     display: flex;
+    flex-direction: column;
 }
 
 .coffee-menu {
@@ -337,6 +343,18 @@ background-image: url("https://www.transparenttextures.com/patterns/noisy.png");
     margin-top: -10px;
     font-size: 0.8rem;
 }
+
+.food-menu-flex {
+    display: flex;
+    margin: 30px;
+}
+
+.menu-bar {
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 .heading {
     border-bottom: solid 2px #E0AF64;

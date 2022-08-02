@@ -125,7 +125,8 @@ window.addEventListener("DOMContentLoaded", function () {
     const displayMenu = (menu) => {
         return (
             menu.map(function (item) {
-                return `<article class="menu-item">
+                return `
+                <article class="menu-item">
         <div class="item-info">
             <header class="header-items">
                 <h4>${item.category}</h4>
