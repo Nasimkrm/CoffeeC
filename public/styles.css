@@ -135,6 +135,11 @@ nav img {
 .social-link {
     width: 27px;
     margin-left: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.social-link:hover {
+    transform: scale(1.1);
 }
 
 .about-div {
@@ -182,8 +187,10 @@ background-image: url("https://www.transparenttextures.com/patterns/noisy.png");
 }
 
 .opening-hours-box {
-    color: #F7F7F7;
-    border: 2px solid #F7F7F7;
+    background-color: #F7F7F7;
+    color: #393E46;
+    border: 2px solid #393E46;
+    border-radius: 20px;
     width: 25%;
     height: 80%;
     text-align: center;
@@ -211,9 +218,7 @@ background-image: url("https://www.transparenttextures.com/patterns/noisy.png");
 background-image: url("https://www.transparenttextures.com/patterns/noisy.png");
 }
 
-.contact-div-title {
-    font-size: 1.5rem;
-}
+
 
 .contact-boxes-div {
     display: flex;
@@ -222,23 +227,37 @@ background-image: url("https://www.transparenttextures.com/patterns/noisy.png");
 .contact-box {
     background-color: #393E46;
     border-radius: 20px;
-    width: 294px;
-    height: 86px;
+    width: 320px;
+    height: 96px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+     
     margin: 30px;
     align-items: center;
+    
     color: #F7F7F7;
-    padding: 15px;
+    /* padding: 15px; */
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    transition: 0.3s ease-in;
+    transition: 0.3s ease-in; 
+   
 }
 
 .contact-box:hover {
-    transform: scale(1.1);
     opacity: 0.9;
+    transform: scale(1.1);
 }
+
+.contact-box header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-box img {
+    width: 25px;
+}
+
+
 
 .menu-cont {
     font-size: 0.8rem;
